@@ -1,0 +1,28 @@
+{
+  "name": "pavilion",
+  "version": "2.0.3",
+  "description": "Pavilion CSS Framework. A solid starting point without the bloat.",
+  "homepage": "http://www.pavilion.io",
+  "license": "MIT",
+  "author": "Baasdesign <info@baasdesign.com>",
+  "main": "dist/pavilion.css",
+  "repository": "getpavilion/pavilion",
+  "keywords": [
+    "responsive",
+    "framework",
+    "minimal",
+    "bootstrap",
+    "scss",
+    "css",
+    "web",
+    "pavilion",
+    "skeleton"
+  ],
+  "ignore": [
+    "prepros.cfg",
+    ".gitignore",
+    ".npmignore",
+    ".travis.yml",
+    "bower.json"
+  ]
+}

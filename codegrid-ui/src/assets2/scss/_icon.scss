@@ -1,0 +1,324 @@
+// このscssファイルはgulpによる自動生成
+// scssを編集したい場合は src/assets2/font/codegrid-icon/_icon.scss を編集すること
+
+@import "icon-utils";
+
+/* アイコンフォント
+   ========================================================================== */
+@font-face {
+  font-family: "codegrid-icon";
+  src: url('../font/codegrid-icon.woff2') format('woff2'),
+        url('../font/codegrid-icon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+---
+name: Icon
+category:
+  - Icons
+tag:
+  - icon
+---
+
+pxg
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-pxg"></span>
+  
+</div>
+```
+
+top
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-top"></span>
+  
+</div>
+```
+
+right
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-right"></span>
+  
+</div>
+```
+
+down
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-down"></span>
+  
+</div>
+```
+
+left
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-left"></span>
+  
+</div>
+```
+
+hamburger
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-hamburger"></span>
+  
+</div>
+```
+
+list
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-list"></span>
+  
+</div>
+```
+
+setting
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-setting"></span>
+  
+</div>
+```
+
+search
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-search"></span>
+  
+</div>
+```
+
+star
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-star"></span>
+  
+</div>
+```
+
+lock
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-lock"></span>
+  
+</div>
+```
+
+unlock
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-unlock"></span>
+  
+</div>
+```
+
+question
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-question"></span>
+  
+</div>
+```
+
+exclamation-circle
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-exclamation-circle"></span>
+  
+</div>
+```
+
+exclamation-triangle
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-exclamation-triangle"></span>
+  
+</div>
+```
+
+twitter
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-twitter"></span>
+  
+</div>
+```
+
+facebook
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-facebook"></span>
+  
+</div>
+```
+
+gplus
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-gplus"></span>
+  
+</div>
+```
+
+cat-elementary
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-elementary"></span>
+  <span class="CG2-icon-cat-elementary CG2-icon--colored"></span>
+</div>
+```
+
+cat-mastering
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-mastering"></span>
+  <span class="CG2-icon-cat-mastering CG2-icon--colored"></span>
+</div>
+```
+
+cat-standards
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-standards"></span>
+  <span class="CG2-icon-cat-standards CG2-icon--colored"></span>
+</div>
+```
+
+cat-talk
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-talk"></span>
+  <span class="CG2-icon-cat-talk CG2-icon--colored"></span>
+</div>
+```
+
+cat-architecture
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-architecture"></span>
+  <span class="CG2-icon-cat-architecture CG2-icon--colored"></span>
+</div>
+```
+
+cat-report
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-report"></span>
+  <span class="CG2-icon-cat-report CG2-icon--colored"></span>
+</div>
+```
+
+cat-design
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-design"></span>
+  <span class="CG2-icon-cat-design CG2-icon--colored"></span>
+</div>
+```
+
+cat-future
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-future"></span>
+  <span class="CG2-icon-cat-future CG2-icon--colored"></span>
+</div>
+```
+
+cat-work-style
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-work-style"></span>
+  <span class="CG2-icon-cat-work-style CG2-icon--colored"></span>
+</div>
+```
+
+cat-survey
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-survey"></span>
+  <span class="CG2-icon-cat-survey CG2-icon--colored"></span>
+</div>
+```
+
+cat-interview
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-interview"></span>
+  <span class="CG2-icon-cat-interview CG2-icon--colored"></span>
+</div>
+```
+
+cat-discussion
+```html
+<div style="font-size:32px;">
+  <span class="CG2-icon-cat-discussion"></span>
+  <span class="CG2-icon-cat-discussion CG2-icon--colored"></span>
+</div>
+```
+
+*/
+
+[class^="CG2-icon-"], [class*=" CG2-icon-"] {
+  // _icon-utilsに定義
+  @extend %codegrid-icon;
+
+  // 日本語とのベースラインの兼ね合い
+  position: relative;
+  top: -0.1em;
+}
+
+// アイコン
+// ===========================================================================
+.CG2-icon-pxg:before { content: "\"; }
+.CG2-icon-top:before { content: "\"; }
+.CG2-icon-right:before { content: "\"; }
+.CG2-icon-down:before { content: "\"; }
+.CG2-icon-left:before { content: "\"; }
+.CG2-icon-hamburger:before { content: "\"; }
+.CG2-icon-list:before { content: "\"; }
+.CG2-icon-setting:before { content: "\"; }
+.CG2-icon-search:before { content: "\"; }
+.CG2-icon-star:before { content: "\"; }
+.CG2-icon-lock:before { content: "\"; }
+.CG2-icon-unlock:before { content: "\"; }
+.CG2-icon-question:before { content: "\"; }
+.CG2-icon-exclamation-circle:before { content: "\"; }
+.CG2-icon-exclamation-triangle:before { content: "\"; }
+.CG2-icon-twitter:before { content: "\"; }
+.CG2-icon-facebook:before { content: "\"; }
+.CG2-icon-gplus:before { content: "\"; }
+.CG2-icon-cat-elementary:before { content: "\"; }
+.CG2-icon-cat-mastering:before { content: "\"; }
+.CG2-icon-cat-standards:before { content: "\"; }
+.CG2-icon-cat-talk:before { content: "\"; }
+.CG2-icon-cat-architecture:before { content: "\"; }
+.CG2-icon-cat-report:before { content: "\"; }
+.CG2-icon-cat-design:before { content: "\"; }
+.CG2-icon-cat-future:before { content: "\"; }
+.CG2-icon-cat-work-style:before { content: "\"; }
+.CG2-icon-cat-survey:before { content: "\"; }
+.CG2-icon-cat-interview:before { content: "\"; }
+.CG2-icon-cat-discussion:before { content: "\"; }
+
+
+// 色付きのアイコン
+// ===========================================================================
+span.CG2-icon--colored.CG2-icon-unlock           { color: #f8a000; }
+span.CG2-icon--colored.CG2-icon-cat-elementary   { color: #f4db00; }
+span.CG2-icon--colored.CG2-icon-cat-mastering    { color: #9cc500; }
+span.CG2-icon--colored.CG2-icon-cat-standards    { color: #009b26; }
+span.CG2-icon--colored.CG2-icon-cat-talk         { color: #009b9b; }
+span.CG2-icon--colored.CG2-icon-cat-architecture { color: #009be7; }
+span.CG2-icon--colored.CG2-icon-cat-report       { color: #006bb5; }
+span.CG2-icon--colored.CG2-icon-cat-design       { color: #000872; }
+span.CG2-icon--colored.CG2-icon-cat-future       { color: #f89c00; }
+span.CG2-icon--colored.CG2-icon-cat-work-style   { color: #ef0000; }
+span.CG2-icon--colored.CG2-icon-cat-survey       { color: #ee0155; }
+span.CG2-icon--colored.CG2-icon-cat-interview    { color: #ef007e; }
+span.CG2-icon--colored.CG2-icon-cat-discussion   { color: #9c0178; }

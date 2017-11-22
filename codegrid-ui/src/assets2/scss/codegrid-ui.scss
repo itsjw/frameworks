@@ -1,0 +1,29 @@
+/* CodeGrid-UI for CodeGrid app */
+
+// articleSeriesNavで使われる縦中横フォント
+// FIXME: ちゃんとした場所に移動する
+@font-face {
+  font-family: "codegrid-num";
+  src: url('../font/codegrid-num.woff2') format('woff2'),
+       url('../font/codegrid-num.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// ビルドに必要な変数やmixinなど
+@import "vendor/_normalize";
+@import "vendor/_media-queries";
+@import "vendor/_prism";
+@import "0_vars";
+@import "1_utils";
+@import "2_basic";
+@import "3_animations";
+@import "icon";
+
+// ページのテンプレート用のスタイルと、共通コンポーネント
+@import "placeholder";
+@import "template";
+@import "components-shared";
+
+// codegrid-appのみで使われるコンポーネント
+@import "components-app";

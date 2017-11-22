@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../../aigis_assets/css/theme.css" rel="stylesheet">
+    <link href="../../../assets2/css/codegrid-ui.min.css" rel="stylesheet">
+    <link href="../../../assets2/css/codegrid-ui-www.min.css" rel="stylesheet">
+    <script src="../../aigis_assets/js/toolbar.js"></script>
+  </head>
+<body class="aigis--navclose">
+  <div class="aigis-toolbar">
+    <button type="button" class="aigis-toggleNav">
+      <span class="aigis-icon-list"></span>
+    </button>
+    <button type="button" class="aigis-toggleCode">
+      <span class="aigis-icon-code"></span>
+    </button>
+  </div>
+  <div class="aigis-container">
+    <div class="aigis-sidemenu">
+  <header class="aigis-header">
+    <a href="../../index.html">CodeGrid UI</a>
+  </header>
+  <h2 class="aigis-sidemenu__heading">Category</h2>
+  <nav class="aigis-categoryList">
+    <ul data-path-depth="0"><li data-path-depth="0"><a>Blocks</a><ul data-path-depth="1"><li data-path-depth="1"><a href="../../category/Blocks/app/index.html">app</a></li><li data-path-depth="1"><a href="../../category/Blocks/shared/index.html">shared</a></li><li data-path-depth="1"><a href="../../category/Blocks/www/index.html">www</a></li></ul></li><li data-path-depth="0"><a href="../../category/Content/index.html">Content</a></li><li data-path-depth="0"><a href="../../category/Icons/index.html">Icons</a></li><li data-path-depth="0"><a href="../../category/Nav-items/index.html">Nav-items</a></li><li data-path-depth="0"><a href="../../category/Templates/index.html">Templates</a></li></ul>
+  </nav>
+  <h2 class="aigis-sidemenu__heading">Tag</h2>
+  <nav class="aigis-tags aigis-tagList">
+      <a class="aigis-tags__item aigis-tags__item--Template" href="../../tag/Template/index.html">Template</a>
+      <a class="aigis-tags__item aigis-tags__item--app-form" href="../../tag/app-form/index.html">app-form</a>
+      <a class="aigis-tags__item aigis-tags__item--app-item" href="../../tag/app-item/index.html">app-item</a>
+      <a class="aigis-tags__item aigis-tags__item--app-item-article" href="../../tag/app-item-article/index.html">app-item-article</a>
+      <a class="aigis-tags__item aigis-tags__item--app-item-articlelist" href="../../tag/app-item-articlelist/index.html">app-item-articlelist</a>
+      <a class="aigis-tags__item aigis-tags__item--button" href="../../tag/button/index.html">button</a>
+      <a class="aigis-tags__item aigis-tags__item--content" href="../../tag/content/index.html">content</a>
+      <a class="aigis-tags__item aigis-tags__item--icon" href="../../tag/icon/index.html">icon</a>
+      <a class="aigis-tags__item aigis-tags__item--www-item" href="../../tag/www-item/index.html">www-item</a>
+      <a class="aigis-tags__item aigis-tags__item--www-top-item" href="../../tag/www-top-item/index.html">www-top-item</a>
+  </nav>
+  <h2 class="aigis-sidemenu__heading"><a href="../../color.html">All Colors</a></h2>
+</div>
+
+    <div class="aigis-contents">
+      <div class="aigis-contents__body">
+        <nav>
+  <h2 class="aigis-module__heading">Components</h2>
+  <ul class="aigis-moduleList">
+      <li class="aigis-moduleList__item">
+        <a href="#formProgress">formProgress</a>
+      </li>
+      <li class="aigis-moduleList__item">
+        <a href="#signupFrom">signupFrom</a>
+      </li>
+      <li class="aigis-moduleList__item">
+        <a href="#paymentTable">paymentTable</a>
+      </li>
+  </ul>
+</nav>
+<div>
+
+  <div class="aigis-module">
+  
+    <h2 class="aigis-module__heading" id="formProgress">
+      formProgress
+    </h2>
+    <div class="aigis-module__filepath">
+      /src/assets2/scss/_components-app.scss
+    </div>
+    <ul class="aigis-tags">
+        <li class="aigis-tags__item aigis-tags__item--app-item">app-item</li>
+        <li class="aigis-tags__item aigis-tags__item--app-form">app-form</li>
+    </ul>
+    <div class="aigis-preview">
+  <div class="CG2-formProgress">
+    <ol>
+        <li>1. ログイン方法について</li>
+        <li class="CG2-formProgress__item--current">2. 決済方法選択</li>
+        <li>3. 登録完了</li>
+    </ol>
+</div></div>
+
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-formProgress<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>1. ログイン方法について<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-formProgress__item--current<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2. 決済方法選択<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>3. 登録完了<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+
+  </div>
+
+  <div class="aigis-module">
+  
+    <h2 class="aigis-module__heading" id="signupFrom">
+      signupFrom
+    </h2>
+    <div class="aigis-module__filepath">
+      /src/assets2/scss/_components-app.scss
+    </div>
+    <ul class="aigis-tags">
+        <li class="aigis-tags__item aigis-tags__item--app-item">app-item</li>
+        <li class="aigis-tags__item aigis-tags__item--app-form">app-form</li>
+    </ul>
+    <div class="aigis-preview">
+  <div class="CG2-signupFrom">
+    <div class="CG2-signupFrom__lead"> 購読料は月額800円（税抜）
+        <div class="CG2-signupFrom__leadSub"> PayPal払いなら30日間無料 </div>
+    </div>
+    <div class="CG2-signupFrom__information">
+        <p>支払い処理中にエラーが発生しました</p>
+    </div>
+    <div class="CG2-signupFrom__text">
+        <p>お手数ですがもう一度手続きをおこなってください。</p>
+    </div>
+    <div class="CG2-signupFrom__check"> <label><input type="checkbox">利用規約に同意する</label> </div>
+    <div class="CG2-signupFrom__buttonContainer">
+        <ul>
+            <li><a class="CG2-button CG2-button--primary" href="#">再度支払い手続きをおこなう</a></li>
+        </ul>
+        <div class="CG2-signupFrom__buttonContainerText">
+            <p>※CodeGridの購読にはGoogleアカウントが必要です。　<a href="#">Googleアカウント作成</a></p>
+        </div>
+    </div>
+    <div class="CG2-signupFrom__buttonContainer CG2-signupFrom__buttonContainer--fullWidth">
+        <ul>
+            <li><a class="CG2-button CG2-button--primary" href="#">PayPalで支払う</a></li>
+        </ul>
+        <ul>
+            <li><a class="CG2-button CG2-button--primary" href="#">WebMoney 1ヶ月分</a></li>
+            <li><a class="CG2-button CG2-button--primary" href="#">WebMoney 1年分</a></li>
+        </ul>
+        <div class="CG2-signupFrom__buttonContainerText">
+            <p>※CodeGridの購読にはGoogleアカウントが必要です。　<a href="#">Googleアカウント作成</a></p>
+        </div>
+    </div>
+    <div class="CG2-signupFrom__annotation">
+        <p>再度エラーになる場合は以下よりお問い合わせください。</p>
+    </div>
+</div></div>
+
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__lead<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    購読料は月額800円（税抜）
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__leadSub<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      PayPal払いなら30日間無料
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__information<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>支払い処理中にエラーが発生しました<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>お手数ですがもう一度手続きをおこなってください。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__check<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>利用規約に同意する<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__buttonContainer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-button CG2-button--primary<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>再度支払い手続きをおこなう<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__buttonContainerText<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>※CodeGridの購読にはGoogleアカウントが必要です。　<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Googleアカウント作成<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__buttonContainer CG2-signupFrom__buttonContainer--fullWidth<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-button CG2-button--primary<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>PayPalで支払う<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-button CG2-button--primary<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>WebMoney 1ヶ月分<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-button CG2-button--primary<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>WebMoney 1年分<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__buttonContainerText<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>※CodeGridの購読にはGoogleアカウントが必要です。　<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Googleアカウント作成<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-signupFrom__annotation<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>再度エラーになる場合は以下よりお問い合わせください。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+
+  </div>
+
+  <div class="aigis-module">
+  
+    <h2 class="aigis-module__heading" id="paymentTable">
+      paymentTable
+    </h2>
+    <div class="aigis-module__filepath">
+      /src/assets2/scss/_components-shared.scss
+    </div>
+    <ul class="aigis-tags">
+        <li class="aigis-tags__item aigis-tags__item--app-item">app-item</li>
+        <li class="aigis-tags__item aigis-tags__item--app-form">app-form</li>
+        <li class="aigis-tags__item aigis-tags__item--www-item">www-item</li>
+    </ul>
+    <div class="aigis-preview">
+  <div class="CG2-paymentTable">
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th><img src="/build/assets2/img/logos/paypal.svg" alt="PayPal" width="100" height="25"></th>
+                <th><img src="/build/assets2/img/logos/webmoney.png" alt="WebMoney" width="156" height="30"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>購読料<br><span class="CG2-paymentTable__annotation">（税込金額）</span></th>
+                <td>
+                    <div class="CG2-paymentTable__priceList">
+                        <ul>
+                            <li>
+                                <div class="CG2-paymentTable__priceLabel">月額</div>
+                                <div class="CG2-paymentTable__priceValue">800</div>
+                                <div class="CG2-paymentTable__priceUnit">円</div>
+                                <div class="CG2-paymentTable__priceAnnotation">（税込864円）</div>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div class="CG2-paymentTable__priceList">
+                        <ul>
+                            <li>
+                                <div class="CG2-paymentTable__priceLabel">月払い</div>
+                                <div class="CG2-paymentTable__priceValue">800</div>
+                                <div class="CG2-paymentTable__priceUnit">円</div>
+                                <div class="CG2-paymentTable__priceAnnotation">（税込864円）</div>
+                            </li>
+                            <li>
+                                <div class="CG2-paymentTable__priceLabel">年払い</div>
+                                <div class="CG2-paymentTable__priceValue">9,600</div>
+                                <div class="CG2-paymentTable__priceUnit">円</div>
+                                <div class="CG2-paymentTable__priceAnnotation">（税込10,368円）</div>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>購読料</th>
+                <td>自動継続</td>
+                <td>随時購入</td>
+            </tr>
+            <tr>
+                <th>無料購読期間</th>
+                <td>
+                    <div class="CG2-paymentTable__valueList">
+                        <ul>
+                            <li> <span class="CG2-paymentTable__valueText CG2--disableLargeScreen">無料購読期間</span> <span class="CG2-paymentTable__value">30</span> <span class="CG2-paymentTable__valueUnit">日</span> </li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div class="CG2-paymentTable__valueList">
+                        <ul>
+                            <li> <span class="CG2-paymentTable__valueText CG2--disableLargeScreen">無料購読期間</span> <span class="CG2-paymentTable__valueText">なし</span> </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div></div>
+
+<pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>/build/assets2/img/logos/paypal.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>PayPal<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>25<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>/build/assets2/img/logos/webmoney.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>WebMoney<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>156<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>30<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>購読料<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__annotation<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>（税込金額）<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceList<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>月額<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceValue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceUnit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>円<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceAnnotation<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>（税込864円）<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceList<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>月払い<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceValue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceUnit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>円<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceAnnotation<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>（税込864円）<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>年払い<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceValue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>9,600<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceUnit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>円<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__priceAnnotation<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>（税込10,368円）<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>購読料<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>自動継続<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>随時購入<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>無料購読期間<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__valueList<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__valueText CG2--disableLargeScreen<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>無料購読期間<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__value<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>30<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__valueUnit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>日<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__valueList<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__valueText CG2--disableLargeScreen<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>無料購読期間<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>CG2-paymentTable__valueText<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>なし<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+
+  </div>
+</div>
+
+        <footer class="aigis-footer">Last update at 2017/11/17 20:54</footer>
+      </div>
+    </div>
+  </div>
+  <script src="../../../assets2/js/codegrid-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+// このscssファイルはgulpによる自動生成
+// scssを編集したい場合は src/assets2/font/codegrid-icon/_icon.scss を編集すること
+
+@import "icon-utils";
+
+/* アイコンフォント
+   ========================================================================== */
+@font-face {
+  font-family: "<%= fontName %>";
+  src: url('<%= fontPath %><%= fontName %>.woff2') format('woff2'),
+        url('<%= fontPath %><%= fontName %>.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+---
+name: Icon
+category:
+  - Icons
+tag:
+  - icon
+---
+<% _.each ( glyphs, function( glyph ) { %>
+<%= glyph.name %>
+```html
+<div style="font-size:32px;">
+  <span class="<%= prefix %>-<%= glyph.name %>"></span>
+  <% if ( /cat-/.test( glyph.name ) ) { %><span class="<%= prefix %>-<%= glyph.name %> CG2-icon--colored"></span><% } %>
+</div>
+```
+<% } ); %>
+*/
+
+[class^="CG2-icon-"], [class*=" CG2-icon-"] {
+  // _icon-utilsに定義
+  @extend %codegrid-icon;
+
+  // 日本語とのベースラインの兼ね合い
+  position: relative;
+  top: -0.1em;
+}
+
+// アイコン
+// ===========================================================================
+<% _.each ( glyphs, function( glyph ) { %>.<%= prefix %>-<%= glyph.name %>:before { content: "\<%= glyph.unicode.toString( 16 ).toUpperCase() %>"; }
+<% } ); %>
+
+// 色付きのアイコン
+// ===========================================================================
+span.CG2-icon--colored.CG2-icon-unlock           { color: #f8a000; }
+span.CG2-icon--colored.CG2-icon-cat-elementary   { color: #f4db00; }
+span.CG2-icon--colored.CG2-icon-cat-mastering    { color: #9cc500; }
+span.CG2-icon--colored.CG2-icon-cat-standards    { color: #009b26; }
+span.CG2-icon--colored.CG2-icon-cat-talk         { color: #009b9b; }
+span.CG2-icon--colored.CG2-icon-cat-architecture { color: #009be7; }
+span.CG2-icon--colored.CG2-icon-cat-report       { color: #006bb5; }
+span.CG2-icon--colored.CG2-icon-cat-design       { color: #000872; }
+span.CG2-icon--colored.CG2-icon-cat-future       { color: #f89c00; }
+span.CG2-icon--colored.CG2-icon-cat-work-style   { color: #ef0000; }
+span.CG2-icon--colored.CG2-icon-cat-survey       { color: #ee0155; }
+span.CG2-icon--colored.CG2-icon-cat-interview    { color: #ef007e; }
+span.CG2-icon--colored.CG2-icon-cat-discussion   { color: #9c0178; }

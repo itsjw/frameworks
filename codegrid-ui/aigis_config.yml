@@ -1,0 +1,9 @@
+name: CodeGrid UI
+
+source: ./src/assets2/scss
+dest: ./build/styleguide
+dependencies: ./src/aigis-template/aigis_assets
+index: ./README.md
+template_engine: hbs
+template_dir: ./src/aigis-template/template_hbs
+log: true

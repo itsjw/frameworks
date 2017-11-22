@@ -1,0 +1,75 @@
+// clearfix
+// ========================================================================== */
+@mixin clearfix () {
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+// resetLink
+// ========================================================================== */
+@mixin resetLink {
+  color: inherit;
+}
+
+
+// wordbreak
+// ========================================================================== */
+@mixin wordbreak () {
+  white-space: normal;
+  word-break: break-all;
+}
+
+
+// tableToBlock
+// ========================================================================== */
+@mixin tableToBlock () {
+  table, tbody, tr {
+    @include clearfix();
+    display: block;
+  }
+  th, td {
+    float: left;
+    clear: left;
+  }
+}
+
+
+// blurry
+// ========================================================================== */
+@mixin blurry-parent () {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background: #000;
+}
+@mixin blurry () {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  background-position: 50% 50%;
+  background-size: cover;
+  transform: scale( 1.2, 1.2 );
+  opacity: .64;
+}
+// @mixin blurry--blurry () {
+//   filter: blur( 24px );
+// }
+
+
+// print query
+// ========================================================================== */
+@mixin print () {
+  @media print {
+    @content;
+  }
+}
